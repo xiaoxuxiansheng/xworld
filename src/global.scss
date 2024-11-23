@@ -1,0 +1,92 @@
+.ant-timeline-item-content{
+  font-size: 15px;
+  font-family: 'Kaiti';
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: black;
+}
+
+.ant-table{
+  position: absolute;
+  left: 25%;
+  width: 750px;
+  height: 500px;
+  background-color: transparent !important;
+  font-size: 15px !important;
+  font-style:oblique 15deg;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  text-align: center;
+  color: rgba(3,3,3,0.75);
+  animation: breath 4s infinite alternate;
+}
+
+@keyframes breath{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.02);
+    }
+}
+
+.ant-table-column{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+
+.ant-popconfirm-buttons .ant-btn-primary{
+  padding: 6px;
+  background-color: rgba(6,71,190,0.4);
+  border: none;
+  border-radius: 5px;
+  color: rgba(36,35,35,1);
+  font-style:oblique 15deg;
+  font-size: 12px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+.ant-popconfirm-buttons .ant-btn-default{
+  padding: 6px;
+  background-color: rgba(197,198,200,0.4);
+  border: none;
+  border-radius: 5px;
+  color: rgba(36,35,35,1);
+  font-style:oblique 15deg;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+.ant-popconfirm-content{
+  background-color: transparent;
+}
+
+.ant-popconfirm{
+  background-color: transparent;
+}
+
+.ant-table-pager{
+  position: absolute;
+  transform: translate(280%,1300%);
+  width: 200px;
+  background-color: transparent;
+  color: transparent;
+  font-style: oblique 15deg;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ant-pagination-item-link {
+  display: none !important;
+}
+
+.ant-table-placeholder {
+  background-color: transparent !important;
+  border: none;
+}

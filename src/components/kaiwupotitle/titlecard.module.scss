@@ -1,0 +1,35 @@
+.card{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 320px;
+    height: 340px;
+    padding: 2px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2{
+    font-family: 'Kaiti', 'Arial Black', 'sans-serif';
+    color: rgba(250, 2, 2,1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 36px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    font-weight: bold;
+    font-style: oblique 15deg;    
+}
+
+.card p{
+    font-family: 'Kaiti', 'Arial Black', 'sans-serif';
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-style: oblique 15deg;    
+    margin-bottom: 1px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(251,251,251,0.8);
+}

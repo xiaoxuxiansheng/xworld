@@ -1,0 +1,154 @@
+.booktable{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+
+.bookname{
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    width: 40px;
+    color: rgba(0,0,0,1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-style: oblique 15deg;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.category{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    width: 40px;
+    color: rgba(0,0,0,1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-style: oblique 15deg;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input{
+    position: absolute;
+    left: 33%;
+    top: 27%;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 7px;
+    width: 160px;
+    height: 20px;
+    border: 1.5px solid rgba(146,145,145,0.5);
+    border-radius: 6px;
+    background-color: transparent;
+    color: rgba(0,0,0,1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 14px;
+    font-style: oblique 15deg;
+}
+
+
+.bookCategory{
+    position: absolute;
+    left: 54%;
+    top: 27.5%;
+    height: 40px;
+    width: 135px;
+    padding: auto;
+    background-color: transparent;
+    font-family: 'Kaiti';
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.bookCategoryDropDown{
+    height: 200px;
+    width: 120px;
+    padding: 3px;
+    background-color: rgba(255,255,255,0.8);
+    font-family: 'Kaiti';
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: large;
+}
+
+.searchButton{
+    position: absolute;
+    left: 65%;
+    top: 27.6%;
+    width: 85px;
+    height: 38px;
+    padding: 3px;
+    background-color: rgba(4,12,126,0.4);
+    border: none;
+    border-radius: 10px;
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-style: oblique 15deg;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.searchButton:hover{
+    background-color: rgba(26,2,96,0.5);
+}
+
+
+.popconfirm{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.popconfirmOverlay{
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Kaiti';
+    font-size: 14px;
+    width: 200px;
+}
+
+.bookFont{
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-style: oblique 15deg;
+}
+
+.tagFont{
+    font-size: 15px;
+}
+
+.popconfirm{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.popconfirmOverlay{
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Kaiti';
+    font-size: 14px;
+    width: 200px;
+}
+
+.button{
+    padding: 6px;
+    width: 65px;
+    background-color: rgba(6,71,190,0.2);
+    border: none;
+    border-radius: 5px;
+    color: rgba(36,35,35,1);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-style: oblique 15deg;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.button:hover{
+    background-color: rgba(3,3,128,0.6);
+}

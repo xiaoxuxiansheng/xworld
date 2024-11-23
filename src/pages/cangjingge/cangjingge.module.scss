@@ -1,0 +1,9 @@
+$img_url: "/img/cangjingge.jpeg";
+
+.page{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url($img_url) no-repeat;
+    background-size: cover;
+}

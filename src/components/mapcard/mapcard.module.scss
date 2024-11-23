@@ -1,0 +1,68 @@
+.openmap{
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    text-align: center;
+    animation: breath 3s infinite alternate;
+}
+
+@keyframes breath{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+}
+
+.openmap h2{
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Kaiti', 'Arial Black', 'sans-serif';
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+
+.map{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    background-color: rgba(255,255,255,0.5) !important;
+}
+
+.itemlist{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 12px;
+}
+
+.item{
+    flex: 1 1 80%;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    text-align: center;
+    animation: breath 3s infinite alternate;
+}
+
+.item h3{
+    font-family: 'Kaiti', 'Arial Black', 'sans-serif';
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 2px; 
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique 15deg;
+    color: rgba(36,35,35,1);  
+}

@@ -1,0 +1,54 @@
+.usercard{
+    position: absolute;
+    width: 240px;
+    height: 390px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.usercard h3{
+    font-family: 'Kaiti', 'Arial Black', 'sans-serif';
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-style: oblique 15deg;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(36,35,35,0.8);
+}
+
+.usercard button{
+    margin-top: 10px;
+    width: 135px;
+    padding: 6px;
+    background-color: rgba(60,59,59,0.4);
+    border: none;
+    border-radius: 10px;
+    color: rgba(36,35,35,1);
+    font-style: oblique 15deg;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.usercard button:hover{
+    background-color: rgba(69,68,68,0.8);
+}
+
+.popconfirm{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.popconfirmOverlay{
+    font-style: oblique 15deg;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Kaiti';
+    font-size: 14px;
+    width: 200px;
+}
