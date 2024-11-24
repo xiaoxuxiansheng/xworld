@@ -1,10 +1,15 @@
+// FC——react 函数式组件  useEffect——组件生命周期回调函数  useState——组件 state 属性
 import { FC, useState, useEffect } from "react";
+// antd 卡片、图片组件
 import { Card, Image } from "antd";
+// react-spring 动画组件
 import { useSpring, animated } from "@react-spring/web";
-
+// 模块专属样式
 import styles from "./viewflip.module.scss";
 
-// 思过崖四季风景
+/**
+ * 思过崖四季风景图
+ */
 const views: JSX.Element[] = [
     (<div key="0">
         <h2>思过崖 · 春</h2>
@@ -45,14 +50,18 @@ const views: JSX.Element[] = [
 ]
 
 /**
- * 思过崖四级风景展示组件
+ * 思过崖风景动图组件
+ * 1）实现四级风景动态轮换
+ * 2）实现图片平滑切换效果
  */
 const Comp: FC = ()=>{
+    // state 记录当前展示图片 index
     const [page, setPage] = useState<number>(0);
 
     /**
-     * 生命周期钩子函数
-     * 通过定时器控制每 6 秒切换一次风景图
+     * 组件渲染、更新、卸载环节执行的回调钩子函数
+     * 1）创建定时器，控制每 6 秒切换一次 page index，实现图片切换
+     * 2）组件卸载前，回收定时器
      */
     useEffect(()=>{
         const interval = setInterval(()=>{
@@ -78,6 +87,7 @@ const Comp: FC = ()=>{
         >
             {
                 views.map((view: JSX.Element)=>(
+                    // 根据 state 记录的 index 控制应该渲染的风景图
                     view.key == page.toString() && 
                     <animated.div 
                         key={view.key}

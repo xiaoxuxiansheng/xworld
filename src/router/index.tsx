@@ -1,6 +1,5 @@
 import { FC, useEffect } from "react";
 import { Navigate, RouteObject, useRoutes, useLocation, useNavigate } from "react-router-dom";
-import { message } from "antd";
 
 import YingXiongTie from "../pages/yingxiongtie";
 import SiGuoYa from "../pages/siguoya";
