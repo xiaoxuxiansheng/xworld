@@ -13,7 +13,7 @@ export interface Props{
     name: string 
     // 点击书籍时执行的回调函数
     onClick: (book: Book)=>void
-};
+}
 
 /**
  * 秘籍组件

@@ -70,7 +70,7 @@ const Comp: FC = ()=>{
                 <input type="button" value="启程" onClick={toLogin}/>
             </form>
         </Card>
-    )
+    );
 
 
 };

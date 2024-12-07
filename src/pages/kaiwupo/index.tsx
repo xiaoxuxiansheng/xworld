@@ -23,7 +23,7 @@ const Page: FC = ()=>{
                 name4="经济学原理"
             />
         </div>
-    )
+    );
 };
 
 export default Page;

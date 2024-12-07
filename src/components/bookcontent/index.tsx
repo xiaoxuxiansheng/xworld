@@ -14,7 +14,7 @@ export interface Props{
     language: string 
     // 用户点击关闭时的回调函数
     onClose: ()=>void 
-};
+}
 
 const { Meta } = Card;
 

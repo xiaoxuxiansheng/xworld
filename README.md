@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+<p align="center">
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/page.png" />
+<b>xworld——X先生的江湖门户网站</b>
+<b>技术框架：react18+vite+typescript</b>
+<br/><br/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 前言
+一个自娱自乐的前端实践项目，分享给大家也留给未来的自己，要铭记曾经的学习足迹，时而温故，不可荒废<br/><br/>
 
-Currently, two official plugins are available:
+## 🐧 登录页面
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/yingxiongtie.png" />
+<a href="http://106.14.133.57:3000/">体验页面</a> <br/><br/>
+体验账号：令狐冲 <br/><br/>
+登录密码：xajh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 地图传送页面
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/map.png" />
 
-## Expanding the ESLint configuration
+## 💡 地点一：思过崖
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/siguoya.png" />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💡 地点二：藏经阁
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/cangjingge.png" />
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 💡 地点三：开悟坡
+<img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/kaiwupo.png" />

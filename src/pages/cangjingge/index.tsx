@@ -17,7 +17,7 @@ const Page: FC = ()=>{
             <TitleCard/>
             {/** 组件二 */}
             <BookTable/>
-        </div>)
+        </div>);
 };
 
 export default Page;
