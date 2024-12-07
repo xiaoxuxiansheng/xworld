@@ -1,12 +1,12 @@
 <p align="center">
 <img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/page.png" />
 <b>xworld——X先生的江湖门户网站</b>
-<b>技术框架：react18+vite+typescript</b>
 <br/><br/>
 </p>
 
 ## 📚 前言
 一个自娱自乐的前端实践项目，分享给大家也留给未来的自己，要铭记曾经的学习足迹，时而温故，不可荒废<br/><br/>
+<b>技术框架：react18 + vite + typescript</b>
 
 ## 🐧 登录页面
 <img src="https://github.com/xiaoxuxiansheng/xworld/blob/main/public/readme/yingxiongtie.png" />
